@@ -7,7 +7,9 @@ class Anagram
 end
 
  def match(test_words)
-   test_words.group_by{|w| w.each_char.sort}.values
+   test_words = []
+   test_words.select |test_words|
+   test_words.sort 
      
  end
 
