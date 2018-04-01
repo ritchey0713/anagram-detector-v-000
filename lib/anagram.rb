@@ -7,8 +7,9 @@ class Anagram
 end
 
  def match(test_words)
-   test_words.select |test_words|
-   test_words.sort == @word
+  test_words = []
+   test_words.select {|test_words|test_words.sort == }
+   
      
  end
 
