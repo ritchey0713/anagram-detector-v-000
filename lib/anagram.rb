@@ -14,7 +14,7 @@ end
     end
  
  def sort_words(word)
-   word.sort == @word.sort
+   word.chars.sort == @word.chars.sort
 
 end
 end 
