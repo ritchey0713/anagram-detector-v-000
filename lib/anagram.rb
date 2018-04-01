@@ -8,7 +8,7 @@ end
 
  def match(words_array)
    if words_array.sort == word 
-     
+     word
      
  end
 end
