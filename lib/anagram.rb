@@ -6,9 +6,8 @@ class Anagram
   
 end
 
- def match(words_array)
-   if words_array.sort == word 
-     word
+ def match(test_words)
+   test_words.group_by{|w| w.each_char.sort}.values
      
  end
 end
