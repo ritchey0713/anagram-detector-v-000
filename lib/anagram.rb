@@ -8,10 +8,13 @@ class Anagram
 end
 
  def match(test_words)
-   test_words.select {|testing|testing.sort == @word }
+   test_words.select {|testing| testing == sort_words }
    binding.pry
      
  end
+ 
+ def sort_words(word)
+   word.sort
 
   
 end 
